@@ -1,0 +1,18 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/_blob/dd65b6ceb3db578495bae279548541b6",
+      "headers": [
+        { "key": "Content-Type", "value": "application/json; charset=utf-8" }
+      ]
+    },
+    {
+      "source": "/_blob/(.*)",
+      "headers": [
+        { "key": "Content-Type", "value": "image/jpeg" }
+      ]
+    }
+  ]
+}
